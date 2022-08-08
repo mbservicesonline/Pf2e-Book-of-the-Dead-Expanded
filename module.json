@@ -1,8 +1,8 @@
 {
-  "id": "pf2e-book-of-the-dead-expanded",
+  "id": "Pf2e-Book-of-the-Dead-Expanded",
   "title": "PF2e - Book of the Dead Expanded",
   "description": "New feats, spells, actions, and effects for the Undead archetypes in the Book of the Dead!",
-  "version": "0.1",
+  "version": "0.1.1",
   "authors": [
     {
       "name": "Vindico",
@@ -113,8 +113,61 @@
       "type": "JournalEntry",
       "private": false,
       "flags": {}
+    },
+    {
+      "label": "Journals (BotD Expanded)",
+      "name": "journals",
+      "path": "/packs/botd_journals.db",
+      "system": "pf2e",
+      "type": "JournalEntry",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Effects (BotD Expanded)",
+      "name": "effects",
+      "path": "/packs/botd_effects.db",
+      "system": "pf2e",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Actions (BotD Expanded)",
+      "name": "actions",
+      "path": "/packs/botd_actions.db",
+      "system": "pf2e",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Feats (BotD Expanded)",
+      "name": "feats",
+      "path": "/packs/botd_feats.db",
+      "system": "pf2e",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Spells (BotD Expanded)",
+      "name": "spells",
+      "path": "/packs/botd_spells.db",
+      "system": "pf2e",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Items (BotD Expanded)",
+      "name": "items",
+      "path": "/packs/botd_items.db",
+      "system": "pf2e",
+      "type": "Item",
+      "private": false,
+      "flags": {}
     }
-
   ],
   "flags": {
     "pf2e-book-of-the-dead-expanded": {
