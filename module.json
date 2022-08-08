@@ -1,0 +1,144 @@
+{
+  "id": "pf2e-book-of-the-dead-expanded",
+  "title": "PF2e - Book of the Dead Expanded",
+  "description": "New feats, spells, actions, and effects for the Undead archetypes in the Book of the Dead!",
+  "version": "0.1",
+  "authors": [
+    {
+      "name": "Vindico",
+      "discord": "Vindico#9013",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "9",
+    "verified": "9"
+  },
+  "packs": [
+    {
+      "name": "lich actions",
+      "label": "Lich Actions",
+      "path": "/packs/lich_actions.db",
+      "system": "pf2e",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "lich feats",
+      "label": "Lich Feats",
+      "path": "/packs/lich_feats.db",
+      "system": "pf2e",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "lich spells",
+      "label": "Lich Spells",
+      "path": "/packs/lich_spells.db",
+      "system": "pf2e",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "lich items",
+      "label": "Lich Items",
+      "path": "/packs/lich_items.db",
+      "system": "pf2e",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "effects",
+      "label": "Lich Effects",
+      "path": "/packs/lich_effects.db",
+      "system": "pf2e",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "journal",
+      "label": "Lich Journals",
+      "path": "/packs/lich_journals.db",
+      "system": "pf2e",
+      "type": "JournalEntry",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "vamp actions",
+      "label": "Vampire Actions",
+      "path": "/packs/vamp_actions.db",
+      "system": "pf2e",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "vamp feats",
+      "label": "Vampire Feats",
+      "path": "/packs/vamp_feats.db",
+      "system": "pf2e",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "vamp spells",
+      "label": "Vampire Spells",
+      "path": "/packs/vamp_spells.db",
+      "system": "pf2e",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "vamp effects",
+      "label": "Vampire Effects",
+      "path": "/packs/vamp_effects.db",
+      "system": "pf2e",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "vamp journal",
+      "label": "Vampire Journals",
+      "path": "/packs/vamp_journals.db",
+      "system": "pf2e",
+      "type": "JournalEntry",
+      "private": false,
+      "flags": {}
+    }
+
+  ],
+  "flags": {
+    "pf2e-book-of-the-dead-expanded": {
+      "pf2e-homebrew": {
+        "spellTraits": {
+          "hemomancy": {
+            "label": "Hemomancy",
+            "description": "Spells with the Hemomancy Trait can only be casted by a Vampire"
+          }
+        },
+        "featTraits": {
+          "lich": {
+            "label": "Lich",
+            "description": "New Feats for Liches"
+          },
+          "vampire": {
+            "label": "Vampire",
+            "description": "New Feats for Vampires"
+          }
+        }
+      }
+    }
+  },
+  "url": "",
+  "manifest": "",
+  "download": ""
+}
